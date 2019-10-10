@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="Introduction to HTMLHTML的介绍—-by Brain Zhang">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-10-10T14:47:37.319Z">
+<meta property="og:updated_time" content="2019-10-10T14:57:57.248Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Introduction to HTML">
 <meta name="twitter:description" content="Introduction to HTMLHTML的介绍—-by Brain Zhang">
@@ -245,7 +245,7 @@
     <link itemprop="mainEntityOfPage" href="https://bander972.github.io/2019/10/10/Introduction-to-HTML/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
+      <meta itemprop="name" content="Brain Zhang">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
@@ -857,297 +857,239 @@
 </li>
 </ul>
 <h3 id="5-pre-标签"><a href="#5-pre-标签" class="headerlink" title="5.pre 标签"></a>5.pre 标签</h3><p>pre 元素可定义预格式化的文本，很适合显示计算机代码。被包围在 pre 元素中的文本通常会保留空格和换行符。而文本也会呈现为等宽字体。</p>
-<pre> 标签的一个常见应用就是用来表示计算机的源代码。
+<p>&lt;pre&gt; 标签的一个常见应用就是用来表示计算机的源代码。</p>
+<p>可以导致段落断开的标签==<em>绝不能</em>==包含在&lt;pre&gt; 所定义的块里。尽管有些浏览器会把段落结束标签解释为简单地换行，但是这种行为在所有浏览器上并不都是一样的</p>
+<h3 id="6-HTML-特殊标签"><a href="#6-HTML-特殊标签" class="headerlink" title="6.HTML 特殊标签"></a>6.HTML 特殊标签</h3><p>定义和用法（作用在上方表格中)</p>
+<p> &lt;em&gt; &lt;strong&gt; &lt;dfn&gt; &lt;code&gt; &lt;samp&gt; &lt;kbd&gt;&lt;var&gt; &lt;cite&gt;</p>
+<p>用CSS样式表来美化效果会更好</p>
+<h3 id="7-引用"><a href="#7-引用" class="headerlink" title="7.引用"></a>7.引用</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;blockquote&gt;</span><br><span class="line">长引用</span><br><span class="line">&lt;/blockquote&gt;</span><br><span class="line">&lt;q&gt;</span><br><span class="line">短引用</span><br><span class="line">&lt;/q&gt;</span><br></pre></td></tr></table></figure>
 
-可以导致段落断开的标签==*绝不能*==包含在\<pre\> 所定义的块里。尽管有些浏览器会把段落结束标签解释为简单地换行，但是这种行为在所有浏览器上并不都是一样的
-
-### 6.HTML 特殊标签
-
-定义和用法（作用在上方表格中)
-
- \<em\> \<strong\> \<dfn\> \<code\> \<samp\> \<kbd\>\<var\> \<cite\>
-
-用CSS样式表来美化效果会更好
-
-### 7.引用
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;blockquote&gt;</span><br><span class="line">长引用</span><br><span class="line">&lt;/blockquote&gt;</span><br><span class="line">&lt;q&gt;</span><br><span class="line">短引用</span><br><span class="line">&lt;/q&gt;</span><br></pre></td></tr></table></figure>
-
-### 8.文字方向
-
-<bdo>可以调节文字的输入方向
-
-### 9.下划线与删除线
-
-\<ins\>&\<del\>
-
-- \<del\>\<del\>del表示在文字上打上删除线
-
-- \<ins\>表示在文字下方打下划线
-
-### 10.地址
-
-1.\<address\>表示现实生活中的地址
-
-### 11.注释
-
-- \<!--注释--\>注释不会在浏览器中显示
-
-- 您也许会在 HTML 中偶尔发现条件注释：
-
-- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--[if IE 8]&gt;</span><br><span class="line">    .... some HTML here ....</span><br><span class="line">&lt;![endif]--&gt;</span><br></pre></td></tr></table></figure>
-
-- 条件注释定义只有 Internet Explorer 执行的 HTML 标签
-
-- 各种 HTML 软件程序也能够生成 HTML 注释。
-
-- 例如 \<!--webbot bot--\> 标签会被包围在由 FrontPage 和 Expression Web 创建的 HTML 注释中。
-
-- 作为一项规则，这些标签的存在，有助于对创建这些标签的软件的支持。
-
-### 12.CSS样式表
-
-#### 外部样式表
-
-当样式需要被应用到很多页面的时候，外部样式表将是理想的选择。使用外部样式表，你就可以通过更改一个文件来改变整个站点的外观。
-
+<h3 id="8-文字方向"><a href="#8-文字方向" class="headerlink" title="8.文字方向"></a>8.文字方向</h3><p><bdo>可以调节文字的输入方向</bdo></p>
+<h3 id="9-下划线与删除线"><a href="#9-下划线与删除线" class="headerlink" title="9.下划线与删除线"></a>9.下划线与删除线</h3><p>&lt;ins&gt;&amp;&lt;del&gt;</p>
+<ul>
+<li><p>&lt;del&gt;&lt;del&gt;del表示在文字上打上删除线</p>
+</li>
+<li><p>&lt;ins&gt;表示在文字下方打下划线</p>
+</li>
+</ul>
+<h3 id="10-地址"><a href="#10-地址" class="headerlink" title="10.地址"></a>10.地址</h3><p>1.&lt;address&gt;表示现实生活中的地址</p>
+<h3 id="11-注释"><a href="#11-注释" class="headerlink" title="11.注释"></a>11.注释</h3><ul>
+<li><p>&lt;!–注释–&gt;注释不会在浏览器中显示</p>
+</li>
+<li><p>您也许会在 HTML 中偶尔发现条件注释：</p>
+</li>
+<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--[if IE 8]&gt;</span><br><span class="line">    .... some HTML here ....</span><br><span class="line">&lt;![endif]--&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>条件注释定义只有 Internet Explorer 执行的 HTML 标签</p>
+</li>
+<li><p>各种 HTML 软件程序也能够生成 HTML 注释。</p>
+</li>
+<li><p>例如 &lt;!–webbot bot–&gt; 标签会被包围在由 FrontPage 和 Expression Web 创建的 HTML 注释中。</p>
+</li>
+<li><p>作为一项规则，这些标签的存在，有助于对创建这些标签的软件的支持。</p>
+</li>
+</ul>
+<h3 id="12-CSS样式表"><a href="#12-CSS样式表" class="headerlink" title="12.CSS样式表"></a>12.CSS样式表</h3><h4 id="外部样式表"><a href="#外部样式表" class="headerlink" title="外部样式表"></a>外部样式表</h4><p>当样式需要被应用到很多页面的时候，外部样式表将是理想的选择。使用外部样式表，你就可以通过更改一个文件来改变整个站点的外观。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;head&gt;</span><br><span class="line">&lt;link rel=&quot;&quot;&gt;</span><br><span class="line">&lt;/head&gt;</span><br></pre></td></tr></table></figure>
 
-#### 内部样式表
-
-当单个文件需要特别样式时，就可以使用内部样式表。你可以在 head 部分通过 <style> 标签定义内部样式表
-
+<h4 id="内部样式表"><a href="#内部样式表" class="headerlink" title="内部样式表"></a>内部样式表</h4><p>当单个文件需要特别样式时，就可以使用内部样式表。你可以在 head 部分通过 &lt;style&gt; 标签定义内部样式表</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;head&gt;</span><br><span class="line">&lt;style type=&quot;&quot;&gt;</span><br><span class="line">body &#123;background-color: &#125;</span><br><span class="line">p &#123;margin-left: &#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br></pre></td></tr></table></figure>
 
-#### 样式表的一些标签（总结）（w3school）
-
-| 标签     | 描述                           |
-| :------- | :----------------------------- |
-| \<style\> | 定义样式定义。                 |
-| \<link\>   | 定义资源引用。                 |
-| \<div\>    | 定义文档中的节或区域（块级）。 |
-| \<span\>   | 定义文档中的行内的小块或区域。 |
-
-
-
-### 14.HTML 超链接（\<a\>标签）
-
-1. \<a\>标签代表一个锚
-
-   ---
-
-
-
-#### href属性/value
-
-链接的 HTML 代码很简单。它类似这样：
-
+<h4 id="样式表的一些标签（总结）（w3school）"><a href="#样式表的一些标签（总结）（w3school）" class="headerlink" title="样式表的一些标签（总结）（w3school）"></a>样式表的一些标签（总结）（w3school）</h4><table>
+<thead>
+<tr>
+<th align="left">标签</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">&lt;style&gt;</td>
+<td align="left">定义样式定义。</td>
+</tr>
+<tr>
+<td align="left">&lt;link&gt;</td>
+<td align="left">定义资源引用。</td>
+</tr>
+<tr>
+<td align="left">&lt;div&gt;</td>
+<td align="left">定义文档中的节或区域（块级）。</td>
+</tr>
+<tr>
+<td align="left">&lt;span&gt;</td>
+<td align="left">定义文档中的行内的小块或区域。</td>
+</tr>
+</tbody></table>
+<h3 id="14-HTML-超链接（-lt-a-gt-标签）"><a href="#14-HTML-超链接（-lt-a-gt-标签）" class="headerlink" title="14.HTML 超链接（&lt;a&gt;标签）"></a>14.HTML 超链接（&lt;a&gt;标签）</h3><ol>
+<li><p>&lt;a&gt;标签代表一个锚</p>
+<hr>
+</li>
+</ol>
+<h4 id="href属性-value"><a href="#href属性-value" class="headerlink" title="href属性/value"></a>href属性/value</h4><p>链接的 HTML 代码很简单。它类似这样：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;url&quot;&gt;Link text&lt;/a&gt;</span><br></pre></td></tr></table></figure>
 
-#### ***HTML 链接 - target 属性***
-
-使用 Target 属性，你可以定义被链接的文档在何处显示。
-
-下面的这行会在新窗口打开文档：
-
+<h4 id="HTML-链接-target-属性"><a href="#HTML-链接-target-属性" class="headerlink" title="HTML 链接 - target 属性"></a><strong><em>HTML 链接 - target 属性</em></strong></h4><p>使用 Target 属性，你可以定义被链接的文档在何处显示。</p>
+<p>下面的这行会在新窗口打开文档：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;http://www.w3school.com.cn/&quot; target=&quot;_blank&quot;&gt;Visit W3School!&lt;/a&gt;</span><br></pre></td></tr></table></figure>
 
-#### name 属性
+<h4 id="name-属性"><a href="#name-属性" class="headerlink" title="name 属性"></a>name 属性</h4><p>规定锚（anchor）的名称。</p>
+<p>您可以使用 name 属性创建 HTML 页面中的书签。</p>
+<p>书签不会以任何特殊方式显示，它对读者是不可见的。</p>
+<p>当使用命名锚（named anchors）时，我们可以创建直接跳至该命名锚（比如页面中某个小节）的链接，这样使用者就无需不停地滚动页面来寻找他们需要的信息了。</p>
+<h3 id="命名锚的语法："><a href="#命名锚的语法：" class="headerlink" title="命名锚的语法："></a>命名锚的语法：</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">name</span>=<span class="string">"label"</span>&gt;</span>锚（显示在页面上的文本）<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
-规定锚（anchor）的名称。
-
-您可以使用 name 属性创建 HTML 页面中的书签。
-
-书签不会以任何特殊方式显示，它对读者是不可见的。
-
-当使用命名锚（named anchors）时，我们可以创建直接跳至该命名锚（比如页面中某个小节）的链接，这样使用者就无需不停地滚动页面来寻找他们需要的信息了。
-
-### 命名锚的语法：
-
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">name</span>=<span class="string">"label"</span>&gt;</span>锚（显示在页面上的文本）<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-**提示：**锚的名称可以是任何你喜欢的名字。
-
-**提示：**您可以使用 id 属性来替代 name 属性，命名锚同样有效。
-
-### 实例
-
-首先，我们在 HTML 文档中对锚进行命名（创建一个书签）：
-
+<p><strong>提示：</strong>锚的名称可以是任何你喜欢的名字。</p>
+<p><strong>提示：</strong>您可以使用 id 属性来替代 name 属性，命名锚同样有效。</p>
+<h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3><p>首先，我们在 HTML 文档中对锚进行命名（创建一个书签）：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a name=&quot;tips&quot;&gt;基本的注意事项 - 有用的提示&lt;/a&gt;</span><br></pre></td></tr></table></figure>
 
-然后，我们在同一个文档中创建指向该锚的链接：
-
+<p>然后，我们在同一个文档中创建指向该锚的链接：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;#tips&quot;&gt;有用的提示&lt;/a&gt;</span><br></pre></td></tr></table></figure>
 
-您也可以在其他页面中创建指向该锚的链接：
-
+<p>您也可以在其他页面中创建指向该锚的链接：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;http://www.w3school.com.cn/html/html_links.asp#tips&quot;&gt;有用的提示&lt;/a&gt;</span><br></pre></td></tr></table></figure>
 
-在上面的代码中，我们将 # 符号和锚名称添加到 URL 的末端，就可以直接链接到 tips 这个命名锚了。
-
-具体效果：[有用的提示](https://www.w3school.com.cn/html/html_links.asp#tips)
-
-### 15.替换文本属性（Alt）
-
-alt 属性用来为图像定义一串预备的可替换的文本。替换文本属性的值是用户定义的。
-
+<p>在上面的代码中，我们将 # 符号和锚名称添加到 URL 的末端，就可以直接链接到 tips 这个命名锚了。</p>
+<p>具体效果：<a href="https://www.w3school.com.cn/html/html_links.asp#tips" target="_blank" rel="noopener">有用的提示</a></p>
+<h3 id="15-替换文本属性（Alt）"><a href="#15-替换文本属性（Alt）" class="headerlink" title="15.替换文本属性（Alt）"></a>15.替换文本属性（Alt）</h3><p>alt 属性用来为图像定义一串预备的可替换的文本。替换文本属性的值是用户定义的。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;img src=&quot;***&quot; alt=&quot;***&quot;&gt;</span><br></pre></td></tr></table></figure>
 
-在浏览器无法载入图像时，替换文本属性告诉读者她们失去的信息。此时，浏览器将显示这个替代性的文本而不是图像。为页面上的图像都加上替换文本属性是个好习惯，这样有助于更好的显示信息，并且对于那些使用纯文本浏览器的人来说是非常有用的。
+<p>在浏览器无法载入图像时，替换文本属性告诉读者她们失去的信息。此时，浏览器将显示这个替代性的文本而不是图像。为页面上的图像都加上替换文本属性是个好习惯，这样有助于更好的显示信息，并且对于那些使用纯文本浏览器的人来说是非常有用的。</p>
+<h3 id="16-lt-img-gt-图像"><a href="#16-lt-img-gt-图像" class="headerlink" title="16.&lt;img&gt;图像"></a>16.&lt;img&gt;图像</h3><h4 id="标准标签"><a href="#标准标签" class="headerlink" title="标准标签"></a>标准标签</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;img src=&quot;url&quot;&gt;&lt;/img&gt;</span><br></pre></td></tr></table></figure>
 
-### 16.\<img\>图像
+<h4 id="背景图片"><a href="#背景图片" class="headerlink" title="背景图片"></a>背景图片</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;body background=&quot;***&quot;&gt;</span><br></pre></td></tr></table></figure>
 
-#### 标准标签
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;img src=&quot;url&quot;&gt;&lt;/img&gt;</span><br></pre></td></tr></table></figure>
-
-#### 背景图片
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;body background=&quot;***&quot;&gt;</span><br></pre></td></tr></table></figure>
-
-模板如上
-
-#### 更多方式
-
-请点击下列网站<https://www.w3school.com.cn/html/html_images.asp>
-
-[Visit W3School](http://www.w3school.com.cn/)
-
-### 17.表格
-
-- 表格由\<table\> 标签来定义。每个表格均有若干行（由 \<tr\> 标签定义），每行被分割为若干单元格（由 \<td\> 标签定义）。字母 td 指表格数据（table data），即数据单元格的内容。数据单元格可以包含文本、图片、列表、段落、表单、水平线、表格等等。
-
-- 表格的表头使用 \<th\> 标签进行定义。
-
-- 在一些浏览器中，没有内容的表格单元显示得不太好。如果某个单元格是空的（没有内容），浏览器可能无法显示出这个单元格的边框。可应用空格占位符为了避免这种情况，在空单元格中添加一个空格占位符&nbsp;，就可以将边框显示出来
-
-  #### 更多方式
-
-- [没有边框的表格](https://www.w3school.com.cn/tiy/t.asp?f=html_tables2)
-- [表格中的表头(Heading)](https://www.w3school.com.cn/tiy/t.asp?f=html_table_headers)
-- [空单元格](https://www.w3school.com.cn/tiy/t.asp?f=html_table_nbsp)
-- [带有标题的表格](https://www.w3school.com.cn/tiy/t.asp?f=html_tables3)
-- [跨行或跨列的表格单元格](https://www.w3school.com.cn/tiy/t.asp?f=html_table_span)
-- [表格内的标签](https://www.w3school.com.cn/tiy/t.asp?f=html_table_elements)
-- [单元格边距(Cell padding)](https://www.w3school.com.cn/tiy/t.asp?f=html_table_cellpadding)
-- [单元格间距(Cell spacing)](https://www.w3school.com.cn/tiy/t.asp?f=html_table_cellspacing)
-- [向表格添加背景颜色或背景图像](https://www.w3school.com.cn/tiy/t.asp?f=html_table_background)
-- [向表格单元添加背景颜色或者背景图像](https://www.w3school.com.cn/tiy/t.asp?f=html_table_cellbackground)
-- [在表格单元中排列内容](https://www.w3school.com.cn/tiy/t.asp?f=html_table_align)
-- [框架(frame)属性](https://www.w3school.com.cn/tiy/t.asp?f=html_table_frame)
-
-### 18.有序列表和无序列表
-
-     <ul>无序
-     <ol>有序
-- [不同类型的无序列表](https://www.w3school.com.cn/tiy/t.asp?f=html_lists_unordered)
-
-- [不同类型的有序列表](https://www.w3school.com.cn/tiy/t.asp?f=html_lists_ordered)
-- [嵌套列表](https://www.w3school.com.cn/tiy/t.asp?f=html_lists_nested)
-- [嵌套列表 2](https://www.w3school.com.cn/tiy/t.asp?f=html_lists_nested2)
-- [定义列表](https://www.w3school.com.cn/tiy/t.asp?f=html_list_definition)
-
-### 19.块元素
-
-#### HTML 块元素
-
-大多数 HTML 元素被定义为块级元素或内联元素。
-
-编者注：“块级元素”译为 block level element，“内联元素”译为 inline element。
-
-块级元素在浏览器显示时，通常会以新行来开始（和结束）。
-
-例子：\<h1\>, \<p\>, \<ul\>, \<table\>
-
-#### HTML 内联元素
-
-内联元素在显示时通常不会以新行开始。
-
-例子：\<b\>,\<td\>, \<a\>,\<img\>
-
-#### HTML \<div\> 元素
-
-HTML \<div\> 元素是块级元素，它是可用于组合其他 HTML 元素的容器。
-
+<p>模板如上</p>
+<h4 id="更多方式"><a href="#更多方式" class="headerlink" title="更多方式"></a>更多方式</h4><p>请点击下列网站<a href="https://www.w3school.com.cn/html/html_images.asp" target="_blank" rel="noopener">https://www.w3school.com.cn/html/html_images.asp</a></p>
+<p><a href="http://www.w3school.com.cn/" target="_blank" rel="noopener">Visit W3School</a></p>
+<h3 id="17-表格"><a href="#17-表格" class="headerlink" title="17.表格"></a>17.表格</h3><ul>
+<li><p>表格由&lt;table&gt; 标签来定义。每个表格均有若干行（由 &lt;tr&gt; 标签定义），每行被分割为若干单元格（由 &lt;td&gt; 标签定义）。字母 td 指表格数据（table data），即数据单元格的内容。数据单元格可以包含文本、图片、列表、段落、表单、水平线、表格等等。</p>
+</li>
+<li><p>表格的表头使用 &lt;th&gt; 标签进行定义。</p>
+</li>
+<li><p>在一些浏览器中，没有内容的表格单元显示得不太好。如果某个单元格是空的（没有内容），浏览器可能无法显示出这个单元格的边框。可应用空格占位符为了避免这种情况，在空单元格中添加一个空格占位符&nbsp;，就可以将边框显示出来</p>
+<h4 id="更多方式-1"><a href="#更多方式-1" class="headerlink" title="更多方式"></a>更多方式</h4></li>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_tables2" target="_blank" rel="noopener">没有边框的表格</a></p>
+</li>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_table_headers" target="_blank" rel="noopener">表格中的表头(Heading)</a></p>
+</li>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_table_nbsp" target="_blank" rel="noopener">空单元格</a></p>
+</li>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_tables3" target="_blank" rel="noopener">带有标题的表格</a></p>
+</li>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_table_span" target="_blank" rel="noopener">跨行或跨列的表格单元格</a></p>
+</li>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_table_elements" target="_blank" rel="noopener">表格内的标签</a></p>
+</li>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_table_cellpadding" target="_blank" rel="noopener">单元格边距(Cell padding)</a></p>
+</li>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_table_cellspacing" target="_blank" rel="noopener">单元格间距(Cell spacing)</a></p>
+</li>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_table_background" target="_blank" rel="noopener">向表格添加背景颜色或背景图像</a></p>
+</li>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_table_cellbackground" target="_blank" rel="noopener">向表格单元添加背景颜色或者背景图像</a></p>
+</li>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_table_align" target="_blank" rel="noopener">在表格单元中排列内容</a></p>
+</li>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_table_frame" target="_blank" rel="noopener">框架(frame)属性</a></p>
+</li>
+</ul>
+<h3 id="18-有序列表和无序列表"><a href="#18-有序列表和无序列表" class="headerlink" title="18.有序列表和无序列表"></a>18.有序列表和无序列表</h3><pre><code>&lt;ul&gt;无序
+&lt;ol&gt;有序</code></pre><ul>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_lists_unordered" target="_blank" rel="noopener">不同类型的无序列表</a></p>
+</li>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_lists_ordered" target="_blank" rel="noopener">不同类型的有序列表</a></p>
+</li>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_lists_nested" target="_blank" rel="noopener">嵌套列表</a></p>
+</li>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_lists_nested2" target="_blank" rel="noopener">嵌套列表 2</a></p>
+</li>
+<li><p><a href="https://www.w3school.com.cn/tiy/t.asp?f=html_list_definition" target="_blank" rel="noopener">定义列表</a></p>
+</li>
+</ul>
+<h3 id="19-块元素"><a href="#19-块元素" class="headerlink" title="19.块元素"></a>19.块元素</h3><h4 id="HTML-块元素"><a href="#HTML-块元素" class="headerlink" title="HTML 块元素"></a>HTML 块元素</h4><p>大多数 HTML 元素被定义为块级元素或内联元素。</p>
+<p>编者注：“块级元素”译为 block level element，“内联元素”译为 inline element。</p>
+<p>块级元素在浏览器显示时，通常会以新行来开始（和结束）。</p>
+<p>例子：&lt;h1&gt;, &lt;p&gt;, &lt;ul&gt;, &lt;table&gt;</p>
+<h4 id="HTML-内联元素"><a href="#HTML-内联元素" class="headerlink" title="HTML 内联元素"></a>HTML 内联元素</h4><p>内联元素在显示时通常不会以新行开始。</p>
+<p>例子：&lt;b&gt;,&lt;td&gt;, &lt;a&gt;,&lt;img&gt;</p>
+<h4 id="HTML-lt-div-gt-元素"><a href="#HTML-lt-div-gt-元素" class="headerlink" title="HTML &lt;div&gt; 元素"></a>HTML &lt;div&gt; 元素</h4><p>HTML &lt;div&gt; 元素是块级元素，它是可用于组合其他 HTML 元素的容器。</p>
 <div> 元素没有特定的含义。除此之外，由于它属于块级元素，浏览器会在其前后显示折行。
 
-如果与 CSS 一同使用，\<div\> 元素可用于对大的内容块设置样式属性。eg:
-
+<p>如果与 CSS 一同使用，&lt;div&gt; 元素可用于对大的内容块设置样式属性。eg:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class:&quot;color:red;font-family:areial&quot;&gt;</span><br><span class="line">&lt;p&gt;</span><br><span class="line">&lt;/p&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
 
 <div> 元素的另一个常见的用途是文档布局。它取代了使用表格定义布局的老式方法。使用 <table> 元素进行文档布局不是表格的正确用法。<table> 元素的作用是显示表格化的数据。
 
-#### HTML \<span\> 元素
+<h4 id="HTML-lt-span-gt-元素"><a href="#HTML-lt-span-gt-元素" class="headerlink" title="HTML &lt;span&gt; 元素"></a>HTML &lt;span&gt; 元素</h4><p>HTML &lt;span&gt; 元素是内联元素，可用作文本的容器。</p>
+<p>&lt;span&gt; 元素也没有特定的含义。</p>
+<p>当与 CSS 一同使用时，<span> 元素可用于为部分文本设置样式属性。</span></p>
+<table>
+<thead>
+<tr>
+<th>&lt;div&gt;</th>
+<th align="center">定义文档中的分区或节（division/section）。</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&lt;span&gt;</td>
+<td align="center">定义 span，用来组合文档中的行内元素。</td>
+</tr>
+</tbody></table>
+<h3 id="20-计算机代码"><a href="#20-计算机代码" class="headerlink" title="20.计算机代码"></a>20.计算机代码</h3><h4 id="计算机代码"><a href="#计算机代码" class="headerlink" title="计算机代码"></a>计算机代码</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var person = &#123;</span><br><span class="line">    firstName:&quot;Bill&quot;,</span><br><span class="line">    lastName:&quot;Gates&quot;,</span><br><span class="line">    age:50,</span><br><span class="line">    eyeColor:&quot;blue&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-HTML \<span\> 元素是内联元素，可用作文本的容器。
-
-\<span\> 元素也没有特定的含义。
-
-当与 CSS 一同使用时，<span> 元素可用于为部分文本设置样式属性。
-
-| \<div\>  | 定义文档中的分区或节（division/section）。 |
-| -------- | :----------------------------------------: |
-| \<span\> |   定义 span，用来组合文档中的行内元素。    |
-
-### 20.计算机代码
-
-#### 计算机代码
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var person = &#123;</span><br><span class="line">    firstName:&quot;Bill&quot;,</span><br><span class="line">    lastName:&quot;Gates&quot;,</span><br><span class="line">    age:50,</span><br><span class="line">    eyeColor:&quot;blue&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-#### HTML 计算机代码格式
-
-通常，HTML 使用*可变*的字母尺寸，以及可变的字母间距。
-
-在显示*计算机代码*示例时，并不需要如此。
-
-*\<kbd\>*, *\<samp\>*, 以及 *\<code\>* 元素全都支持固定的字母尺寸和间距。
-
-#### HTML 键盘格式
-
-HTML \<kbd\> 元素定义*键盘输入*：
-
+<h4 id="HTML-计算机代码格式"><a href="#HTML-计算机代码格式" class="headerlink" title="HTML 计算机代码格式"></a>HTML 计算机代码格式</h4><p>通常，HTML 使用<em>可变</em>的字母尺寸，以及可变的字母间距。</p>
+<p>在显示<em>计算机代码</em>示例时，并不需要如此。</p>
+<p><em>&lt;kbd&gt;</em>, <em>&lt;samp&gt;</em>, 以及 <em>&lt;code&gt;</em> 元素全都支持固定的字母尺寸和间距。</p>
+<h4 id="HTML-键盘格式"><a href="#HTML-键盘格式" class="headerlink" title="HTML 键盘格式"></a>HTML 键盘格式</h4><p>HTML &lt;kbd&gt; 元素定义<em>键盘输入</em>：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;p&gt;&lt;kbd&gt;File | Open...&lt;/kbd&gt;&lt;/p&gt;</span><br></pre></td></tr></table></figure>
 
-#### HTML 代码格式
-
-HTML *<code>* 元素定义*编程代码示例*：
-
+<h4 id="HTML-代码格式"><a href="#HTML-代码格式" class="headerlink" title="HTML 代码格式"></a>HTML 代码格式</h4><p>HTML *<code>* 元素定义<em>编程代码示例</em>：</code></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;code&gt;</span><br><span class="line">var person = &#123; firstName:&quot;Bill&quot;, lastName:&quot;Gates&quot;, age:50, eyeColor:&quot;blue&quot; &#125;</span><br><span class="line">&lt;/code&gt;</span><br></pre></td></tr></table></figure>
 
-\<code\> 元素不保留多余的*空格和折行*
-如需解决该问题，您必须在 \<pre\> 元素中包围代码
+<p>&lt;code&gt; 元素不保留多余的<em>空格和折行</em><br>如需解决该问题，您必须在 &lt;pre&gt; 元素中包围代码</p>
+<h4 id="HTML-变量格式化"><a href="#HTML-变量格式化" class="headerlink" title="HTML 变量格式化"></a>HTML 变量格式化</h4><p>HTML <em>&lt;var&gt;</em> 元素定义<em>数学变量</em>：</p>
+<h3 id="21-布局"><a href="#21-布局" class="headerlink" title="21.布局"></a>21.布局</h3> <div> 可以给HTML分区，w3school给出以下属性表格，可用CSS来定位（对table，HTML5)一样适用
 
-#### HTML 变量格式化
-
-HTML *\<var\>* 元素定义*数学变量*：
-
-### 21.布局
-
- <div> 可以给HTML分区，w3school给出以下属性表格，可用CSS来定位（对table，HTML5)一样适用
-
-| header  |       定义文档或节的页眉       |
-| ------- | :----------------------------: |
-| nav     |       定义导航链接的容器       |
-| section |         定义文档中的节         |
-| article |      定义独立的自包含文章      |
-| aside   | 定义内容之外的内容（比如侧栏） |
-| footer  |       定义文档或节的页脚       |
-| details |         定义额外的细节         |
-| summary |    定义 details 元素的标题     |
-
-### 22.框架
-
-frame&frameset可以用来调节网页的框架
-
-### 23.背景
-
-CSS样式表可调节背景
-
-### 24.注意
-
-脚本，web服务器，URL，实体，路径，头部都是必需元素--></address\></ins\></del\></del\></del\></ins\></bdo></cite\></var\></kbd\></samp\></code\></dfn\></strong\></em\></pre\></pre>
+<table>
+<thead>
+<tr>
+<th>header</th>
+<th align="center">定义文档或节的页眉</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>nav</td>
+<td align="center">定义导航链接的容器</td>
+</tr>
+<tr>
+<td>section</td>
+<td align="center">定义文档中的节</td>
+</tr>
+<tr>
+<td>article</td>
+<td align="center">定义独立的自包含文章</td>
+</tr>
+<tr>
+<td>aside</td>
+<td align="center">定义内容之外的内容（比如侧栏）</td>
+</tr>
+<tr>
+<td>footer</td>
+<td align="center">定义文档或节的页脚</td>
+</tr>
+<tr>
+<td>details</td>
+<td align="center">定义额外的细节</td>
+</tr>
+<tr>
+<td>summary</td>
+<td align="center">定义 details 元素的标题</td>
+</tr>
+</tbody></table>
+<h3 id="22-框架"><a href="#22-框架" class="headerlink" title="22.框架"></a>22.框架</h3><p>frame&frameset可以用来调节网页的框架</p>
+<h3 id="23-背景"><a href="#23-背景" class="headerlink" title="23.背景"></a>23.背景</h3><p>CSS样式表可调节背景</p>
+<h3 id="24-注意"><a href="#24-注意" class="headerlink" title="24.注意"></a>24.注意</h3><p>脚本，web服务器，URL，实体，路径，头部都是必需元素</p>
+</div></table></table></div></div>
       
     </div>
     
@@ -1229,7 +1171,7 @@ CSS样式表可调节背景
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">John Doe</p>
+              <p class="site-author-name" itemprop="name">Brain Zhang</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
@@ -1277,7 +1219,7 @@ CSS样式表可调节背景
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Introduction-to-HTML"><span class="nav-number">1.</span> <span class="nav-text">Introduction to HTML</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#一-基础标签分类"><span class="nav-number">1.1.</span> <span class="nav-text">一.基础标签分类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-详细属性"><span class="nav-number">1.2.</span> <span class="nav-text">2.详细属性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#属性表格"><span class="nav-number">1.3.</span> <span class="nav-text">属性表格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三-具体介绍"><span class="nav-number">1.4.</span> <span class="nav-text">三.具体介绍</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-style"><span class="nav-number">1.4.1.</span> <span class="nav-text">1.style</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-物理样式"><span class="nav-number">1.4.2.</span> <span class="nav-text">2.物理样式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-逻辑样式"><span class="nav-number">1.4.3.</span> <span class="nav-text">3.逻辑样式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-pre-标签"><span class="nav-number">1.4.4.</span> <span class="nav-text">5.pre 标签</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Introduction-to-HTML"><span class="nav-number">1.</span> <span class="nav-text">Introduction to HTML</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#一-基础标签分类"><span class="nav-number">1.1.</span> <span class="nav-text">一.基础标签分类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-详细属性"><span class="nav-number">1.2.</span> <span class="nav-text">2.详细属性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#属性表格"><span class="nav-number">1.3.</span> <span class="nav-text">属性表格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三-具体介绍"><span class="nav-number">1.4.</span> <span class="nav-text">三.具体介绍</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-style"><span class="nav-number">1.4.1.</span> <span class="nav-text">1.style</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-物理样式"><span class="nav-number">1.4.2.</span> <span class="nav-text">2.物理样式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-逻辑样式"><span class="nav-number">1.4.3.</span> <span class="nav-text">3.逻辑样式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-pre-标签"><span class="nav-number">1.4.4.</span> <span class="nav-text">5.pre 标签</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-HTML-特殊标签"><span class="nav-number">1.4.5.</span> <span class="nav-text">6.HTML 特殊标签</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-引用"><span class="nav-number">1.4.6.</span> <span class="nav-text">7.引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-文字方向"><span class="nav-number">1.4.7.</span> <span class="nav-text">8.文字方向</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9-下划线与删除线"><span class="nav-number">1.4.8.</span> <span class="nav-text">9.下划线与删除线</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#10-地址"><span class="nav-number">1.4.9.</span> <span class="nav-text">10.地址</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#11-注释"><span class="nav-number">1.4.10.</span> <span class="nav-text">11.注释</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#12-CSS样式表"><span class="nav-number">1.4.11.</span> <span class="nav-text">12.CSS样式表</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#外部样式表"><span class="nav-number">1.4.11.1.</span> <span class="nav-text">外部样式表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#内部样式表"><span class="nav-number">1.4.11.2.</span> <span class="nav-text">内部样式表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#样式表的一些标签（总结）（w3school）"><span class="nav-number">1.4.11.3.</span> <span class="nav-text">样式表的一些标签（总结）（w3school）</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#14-HTML-超链接（-lt-a-gt-标签）"><span class="nav-number">1.4.12.</span> <span class="nav-text">14.HTML 超链接（&lt;a&gt;标签）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#href属性-value"><span class="nav-number">1.4.12.1.</span> <span class="nav-text">href属性/value</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTML-链接-target-属性"><span class="nav-number">1.4.12.2.</span> <span class="nav-text">HTML 链接 - target 属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#name-属性"><span class="nav-number">1.4.12.3.</span> <span class="nav-text">name 属性</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#命名锚的语法："><span class="nav-number">1.4.13.</span> <span class="nav-text">命名锚的语法：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实例"><span class="nav-number">1.4.14.</span> <span class="nav-text">实例</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#15-替换文本属性（Alt）"><span class="nav-number">1.4.15.</span> <span class="nav-text">15.替换文本属性（Alt）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#16-lt-img-gt-图像"><span class="nav-number">1.4.16.</span> <span class="nav-text">16.&lt;img&gt;图像</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#标准标签"><span class="nav-number">1.4.16.1.</span> <span class="nav-text">标准标签</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#背景图片"><span class="nav-number">1.4.16.2.</span> <span class="nav-text">背景图片</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#更多方式"><span class="nav-number">1.4.16.3.</span> <span class="nav-text">更多方式</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#17-表格"><span class="nav-number">1.4.17.</span> <span class="nav-text">17.表格</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#更多方式-1"><span class="nav-number">1.4.17.1.</span> <span class="nav-text">更多方式</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#18-有序列表和无序列表"><span class="nav-number">1.4.18.</span> <span class="nav-text">18.有序列表和无序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#19-块元素"><span class="nav-number">1.4.19.</span> <span class="nav-text">19.块元素</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#HTML-块元素"><span class="nav-number">1.4.19.1.</span> <span class="nav-text">HTML 块元素</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTML-内联元素"><span class="nav-number">1.4.19.2.</span> <span class="nav-text">HTML 内联元素</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTML-lt-div-gt-元素"><span class="nav-number">1.4.19.3.</span> <span class="nav-text">HTML &lt;div&gt; 元素</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTML-lt-span-gt-元素"><span class="nav-number">1.4.19.4.</span> <span class="nav-text">HTML &lt;span&gt; 元素</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#20-计算机代码"><span class="nav-number">1.4.20.</span> <span class="nav-text">20.计算机代码</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#计算机代码"><span class="nav-number">1.4.20.1.</span> <span class="nav-text">计算机代码</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTML-计算机代码格式"><span class="nav-number">1.4.20.2.</span> <span class="nav-text">HTML 计算机代码格式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTML-键盘格式"><span class="nav-number">1.4.20.3.</span> <span class="nav-text">HTML 键盘格式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTML-代码格式"><span class="nav-number">1.4.20.4.</span> <span class="nav-text">HTML 代码格式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#HTML-变量格式化"><span class="nav-number">1.4.20.5.</span> <span class="nav-text">HTML 变量格式化</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#21-布局"><span class="nav-number">1.4.21.</span> <span class="nav-text">21.布局</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#22-框架"><span class="nav-number">1.4.22.</span> <span class="nav-text">22.框架</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#23-背景"><span class="nav-number">1.4.23.</span> <span class="nav-text">23.背景</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#24-注意"><span class="nav-number">1.4.24.</span> <span class="nav-text">24.注意</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
@@ -1301,7 +1243,7 @@ CSS样式表可调节背景
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">Brain Zhang</span>
 
   
 </div>
